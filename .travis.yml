@@ -2,6 +2,8 @@ language: ruby
 
 rvm:
   - 1.9.3
+  
 
 
 script: bundle exec rake generate
+build_image: shippable/minv2:beta
