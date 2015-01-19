@@ -4,9 +4,7 @@ rvm:
   - 1.9.3
  
 before_install:
- 
   - source ~/.rvm/scripts/rvm && rvm use 1.9.3
-
 
 script: bundle exec rake generate
 
